@@ -1,0 +1,90 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Thomas = Instance.new("TextButton")
+local johnDOE = Instance.new("TextButton")
+local Lightsaber = Instance.new("TextButton")
+local Flinggui = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.736055791, 0, 0.113168724, 0)
+Frame.Size = UDim2.new(0, 186, 0, 163)
+
+Thomas.Name = "Thomas"
+Thomas.Parent = ScreenGui
+Thomas.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Thomas.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Thomas.BorderSizePixel = 0
+Thomas.Position = UDim2.new(0.744023919, 0, 0.213991776, 0)
+Thomas.Size = UDim2.new(0, 80, 0, 36)
+Thomas.Font = Enum.Font.SourceSans
+Thomas.Text = "Thomas"
+Thomas.TextColor3 = Color3.fromRGB(0, 0, 0)
+Thomas.TextSize = 14.000
+Thomas.MouseButton1Down:connect(function()
+	loadstring(game httpget('https://raw.githubusercontent.com/Coolman19181/Wwmajqjwthomas/main/Thomas'))()
+end)
+johnDOE.Name = "john DOE"
+johnDOE.Parent = ScreenGui
+johnDOE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+johnDOE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+johnDOE.BorderSizePixel = 0
+johnDOE.Position = UDim2.new(0.823705196, 0, 0.213991776, 0)
+johnDOE.Size = UDim2.new(0, 90, 0, 35)
+johnDOE.Font = Enum.Font.SourceSans
+johnDOE.Text = "John Doe"
+johnDOE.TextColor3 = Color3.fromRGB(0, 0, 0)
+johnDOE.TextSize = 14.000
+johnDOE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolman19181/Wkkskakakadoe/main/26c3b0f7.txt"))()
+end)
+Lightsaber.Name = "Lightsaber"
+Lightsaber.Parent = ScreenGui
+Lightsaber.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lightsaber.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lightsaber.BorderSizePixel = 0
+Lightsaber.Position = UDim2.new(0.74701196, 0, 0.288065851, 0)
+Lightsaber.Size = UDim2.new(0, 77, 0, 35)
+Lightsaber.Font = Enum.Font.SourceSans
+Lightsaber.Text = "Lightsaber"
+Lightsaber.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lightsaber.TextSize = 14.000
+Lightsaber.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolman19181/Lightsaber/main/Lightsaber%20Script"))()
+end)
+Flinggui.Name = "Fling gui"
+Flinggui.Parent = ScreenGui
+Flinggui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flinggui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flinggui.BorderSizePixel = 0
+Flinggui.Position = UDim2.new(0.833665311, 0, 0.304526746, 0)
+Flinggui.Size = UDim2.new(0, 88, 0, 27)
+Flinggui.Font = Enum.Font.SourceSans
+Flinggui.Text = "Fling gui"
+Flinggui.TextColor3 = Color3.fromRGB(0, 0, 0)
+Flinggui.TextSize = 14.000
+Flinggui.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.771912336, 0, 0.152263373, 0)
+TextLabel.Size = UDim2.new(0, 114, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Semi-Fe Gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
